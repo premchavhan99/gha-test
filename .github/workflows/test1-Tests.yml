@@ -3,12 +3,9 @@ name: test1-tests
 on:
   pull_request:
     branches:
-      - 'feature/*'
+      - dev-new
     paths:
       - "test1/**"
-  pull_request_target:
-    branches:
-      - dev-new
 
 jobs:
   build:
